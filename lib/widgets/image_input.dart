@@ -10,6 +10,7 @@ class ImageInput extends StatefulWidget {
 
 class _ImageInputState extends State<ImageInput> {
   File _storedImage;
+  String poop;
 
   Future<void> _takePicture() async {
     final imageFile = await ImagePicker.pickImage(
